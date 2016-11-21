@@ -104,6 +104,9 @@ Main Components
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
+.tupe-font{
+  font-family: 'Lobster', cursive;
+}
 #html-img {
   width: 3%;
   height: 5.5%;
