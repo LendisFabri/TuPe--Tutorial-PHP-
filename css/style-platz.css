@@ -140,7 +140,7 @@ body,html{
   display:none;
 }
 
-.logo img{height:100%;width:100%;}
+.logo img{height:5%; width:5%;}
 
 /*----------------------------*/
 /* SUB WHITE NAV BAR */
@@ -301,6 +301,8 @@ body,html{
   width:100%;
   height:auto;
   background-color:#F4F4F4;
+  font-family: 'Roboto', cursive;
+  color: #2E2D30;
   margin-top:25px;
   opacity:0;
 }
@@ -840,4 +842,19 @@ body,html{
 
 @media only screen and (max-width: 320px) {
 
+}
+.font-p{
+  font-size: 24px;
+
+}
+.font-h{
+  font-size: 40px;
+
+}
+.font-h2{
+  font-size: 32px;
+  
+}
+.hr{
+  border: solid #2E2D30;
 }
