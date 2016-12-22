@@ -853,8 +853,24 @@ body,html{
 }
 .font-h2{
   font-size: 32px;
-  
+
 }
 .hr{
   border: solid #2E2D30;
+}
+.div-try{
+  height: 300px;
+  width: 700px;
+  background: red;
+}
+.var-area{
+  resize: none;
+  position: absolute;
+  margin: 15px 25px;
+}
+.link{
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 2%;
+  padding: 5px;
 }
