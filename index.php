@@ -14,7 +14,7 @@
 <body>
 	<header class="cd-header" data-type="slider-item">
 		<h1 class="tupe-font">Selamat Datang di TuPe</h1>
-	  		<a href="menu.html"><button type="button" class="btn btn-default">Mulai Belajar</button></a>
+	  		<a href="menu.php"><button type="button" class="btn btn-default">Mulai Belajar</button></a>
 				<div class="powered">
 					<h2>Dukungan :</h2>
 					<img id="html-img" src="img/HTML5.svg" alt="HTML-Image" />

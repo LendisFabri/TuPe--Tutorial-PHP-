@@ -201,7 +201,7 @@
 				</div>
 				<p class="font-p">Kemudian, setiap kali fungsi dipanggil, variabel masih memiliki informasi yang terkandung dari terakhir kali fungsi dipanggil.</p>
 				<p class="font-p"><i>*Catatan: Variabel ini masih bersifat lokal dalam fungsi.</i></p>
-				<a href="../menu.html"><button class="back" type="button" name="button">Horee, Saya Mengerti ^_^</button></a>
+				<a href="../menu.php"><button class="back" type="button" name="button">Horee, Saya Mengerti ^_^</button></a>
 			</div>
 		</div>
 

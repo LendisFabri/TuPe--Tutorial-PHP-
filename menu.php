@@ -120,7 +120,7 @@
 				<section class="work">
 
 					<figure class="white">
-						<a href="page/pengenalan.html">
+						<a href="page/pengenalan.php">
 							<img src="img/icons-menu/deal.svg" alt="gambar-1" />
 							<dl>
 								<dt>Pengenalan PHP</dt>
@@ -135,7 +135,7 @@
 					</figure>
 
 					<figure class="white">
-						<a href="page/pemasangan.html">
+						<a href="page/pemasangan.php">
 							<img src="img/icons-menu/install.svg" alt="" />
 							<dl>
 								<dt>Instalasi PHP</dt>
@@ -150,7 +150,7 @@
 					</figure>
 
 					<figure class="white">
-						<a href="page/syntax.html">
+						<a href="page/syntax.php">
 							<img src="img/icons-menu/syntax.svg" alt="" />
 							<dl>
 								<dt>Syntax PHP</dt>
@@ -164,7 +164,7 @@
 					</figure>
 
 					<figure class="white">
-						<a href="page/variabel.html">
+						<a href="page/variabel.php">
 							<img src="img/icons-menu/basket.svg" alt="" />
 							<dl>
 								<dt>Variabel PHP</dt>
@@ -179,7 +179,7 @@
 					</figure>
 
 					<figure class="white">
-						<a href="page/tampil.html">
+						<a href="page/tampil.php">
 							<img src="img/icons-menu/show.svg" alt="" />
 							<dl>
 								<dt>Echo & Print</dt>
@@ -194,7 +194,7 @@
 					</figure>
 
 					<figure class="white">
-						<a href="page/tipe-data.html">
+						<a href="page/tipe-data.php">
 							<img src="img/icons-menu/data-type.svg" alt="" />
 							<dl>
 								<dt>Tipe Data</dt>
@@ -208,7 +208,7 @@
 					</figure>
 
 					<figure class="white">
-						<a href="page/string.html">
+						<a href="page/string.php">
 							<img src="img/icons-menu/string.svg" alt="" />
 							<dl>
 								<dt>String</dt>
@@ -222,7 +222,7 @@
 					</figure>
 
 					<figure class="white">
-						<a href="page/konstanta.html">
+						<a href="page/konstanta.php">
 							<img src="img/icons-menu/constant.svg" alt="" />
 							<dl>
 								<dt>Konstanta</dt>
@@ -237,7 +237,7 @@
 
 
 					<figure class="white">
-						<a href="page/operator.html">
+						<a href="page/operator.php">
 							<img src="img/icons-menu/operator.svg" alt="" />
 							<dl>
 								<dt>Operator</dt>
@@ -251,7 +251,7 @@
 					</figure>
 
 					<figure class="white">
-						<a href="page/perkondisian.html">
+						<a href="page/perkondisian.php">
 							<img src="img/icons-menu/decision.svg" alt="" />
 							<dl>
 								<dt>Perkondisian</dt>
@@ -266,7 +266,7 @@
 					</figure>
 
 					<figure class="white">
-						<a href="page/perulangan.html">
+						<a href="page/perulangan.php">
 							<img src="img/icons-menu/loop-arrow.svg" alt="" />
 							<dl>
 								<dt>Perulangan</dt>
@@ -280,7 +280,7 @@
 					</figure>
 
 					<figure class="white">
-						<a href="page/array.html">
+						<a href="page/array.php">
 							<img src="img/icons-menu/array.svg" alt="" />
 							<dl>
 								<dt>Array</dt>
@@ -295,7 +295,7 @@
 					</figure>
 
 					<figure class="white">
-						<a href="page/fungsi.html">
+						<a href="page/fungsi.php">
 							<img src="img/icons-menu/function.svg" alt="" />
 							<dl>
 								<dt>Fungsi</dt>
@@ -309,7 +309,7 @@
 					</figure>
 
 					<figure class="white">
-						<a href="page/fungsi-array.html">
+						<a href="page/fungsi-array.php">
 							<img src="img/icons-menu/sorting-array.svg" alt="" />
 							<dl>
 								<dt>Fungsi Pengurutan Array</dt>
@@ -326,7 +326,7 @@
 
 
 					<figure class="white">
-						<a href="page/superglobals.html">
+						<a href="page/superglobals.php">
 							<img src="img/icons-menu/super-global.svg" alt="" />
 							<dl>
 								<dt>Superglobals</dt>
