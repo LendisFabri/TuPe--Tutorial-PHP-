@@ -27,7 +27,7 @@
 
 	<div id="wrapper-header">
 		<div id="main-header" class="object">
-			<div class="logo"><img src="img/tupe-icon.svg" alt="logo-tupe"></div>
+			<div class="logo"><img src="../img/tupe-icon.svg" alt="logo-tupe"></div>
 			<div id="main_tip_search">
 				<form>
 					<input type="text" name="search" id="tip_search_input" list="search" autocomplete=off required>
@@ -43,27 +43,27 @@
 		<div class="navbar object">
 			<div id="wrapper-sorting">
 				<div id="wrapper-title-1">
-					<div class="top-rated object">Top-rated</div>
+					<!-- <div class="top-rated object">Top-rated</div> -->
 					<div id="fleche-nav-1"></div>
 				</div>
 
 				<div id="wrapper-title-2">
-					<a href="#"><div class="recent object">Recent</div></a>
+					<!-- <a href="#"><div class="recent object">Recent</div></a> -->
 					<div id="fleche-nav-2"></div>
 				</div>
 
 				<div id="wrapper-title-3">
-					<a href="#"><div class="oldies object">Oldies</div></a>
+					<!-- <a href="#"><div class="oldies object">Oldies</div></a> -->
 					<div id="fleche-nav-3"></div>
 				</div>
 			</div>
 			<div id="wrapper-bouton-icon">
-				<div id="bouton-ai"><img src="img/social-media/svg/linkedin.svg" alt="linkedin-image" title="LinkedIn" height="28" width="28"></div>
-				<div id="bouton-psd"><img src="img/social-media/svg/instagram.svg" alt="instagram-image" title="Instagram" height="28" width="28"></div>
-				<div id="bouton-theme"><img src="img/social-media/svg/path.svg" alt="path-image" title="Path" height="28" width="28"></div>
-				<div id="bouton-font"><img src="img/social-media/svg/facebook.svg" alt="facebook-image" title="Facebook" height="28" width="28"></div>
-				<div id="bouton-photo"><img src="img/social-media/svg/twitter.svg" alt="twitter-image" title="Twitter" height="28" width="28"></div>
-				<div id="bouton-premium"><img src="img/social-media/svg/google-plus.svg" alt="google-plus-image" title="Google Plus" height="28" width="28"></div>
+				<div id="bouton-ai"><img src="../img/social-media/svg/linkedin.svg" alt="linkedin-image" title="LinkedIn" height="28" width="28"></div>
+				<div id="bouton-psd"><img src="../img/social-media/svg/instagram.svg" alt="instagram-image" title="Instagram" height="28" width="28"></div>
+				<div id="bouton-theme"><img src="../img/social-media/svg/path.svg" alt="path-image" title="Path" height="28" width="28"></div>
+				<div id="bouton-font"><img src="../img/social-media/svg/facebook.svg" alt="facebook-image" title="Facebook" height="28" width="28"></div>
+				<div id="bouton-photo"><img src="../img/social-media/svg/twitter.svg" alt="twitter-image" title="Twitter" height="28" width="28"></div>
+				<div id="bouton-premium"><img src="../img/social-media/svg/google-plus.svg" alt="google-plus-image" title="Google Plus" height="28" width="28"></div>
 			</div>
 		</div>
 	</div>
@@ -120,12 +120,88 @@
         <h2 class="font-h2">Definisi Variabel</h2>
         <p class="font-p">Variabel merupakan sebuah tempat penyimpanan data yang berupa nilai. Variabel juga dapat diibaratkan seperti sebuah wadah
 				penyimpanan.</p><br>
+				<hr class="hr2">
 				<h2 class="font-h2">Deklarasi Variabel</h2>
 				<p class="font-p">Dalam bahasa pemrograman PHP, variabel dimulai dengan tanda dollar ($), diikuti dengan nama variabel, dan diakhiri dengan tanda titik koma (;).</p>
 				<div class="div-try">
-					<textarea class="var-area" rows="8" cols="80" readonly="readonly">Echo "Lendis"</textarea>
-					<a href="deklarasi-variabel.php"><button class="link" type="button" name="button">Coba Saja</button></a>
+					<div class="var-area" rows="8" cols="80" readonly="readonly">
+						<pre class="pre-area">$string = "Hello TuPe";<br>$angka = 5;<br>$desimal = 27.5;</pre>
+					</div>
+					<a href="deklarasi-variabel.php" target="_blank"><button class="link" type="button" name="button">Dicoba Yuk</button></a>
 				</div>
+				<p class="font-p">Setelah pernyataan di atas dieksekusi, kita bisa melihat bahwa variabel <i>$string</i> akan menyimpan nilai <u>Hello TuPe</u>,
+				variabel <i>$angka</i> akan menyimpan nilai <u>5</u>, dan variabel <i>$desimal</i> akan menyimpan nilai <u>27.5.</u></p>
+				<p class="font-p">Sebuah variabel dapat memiliki sebuah nama pendek seperti ($a dan $b) atau nama-nama sesuai nilai yang akan dideskripsikan seperti ($string, $angka, $hobi, $total).
+				<p class="font-p">Selain itu variabel sendiri memiliki aturan dalam penggunaan namanya, antara lain:</p>
+				<div class="div-ul">
+					<ul class="font-p">
+						<li># Sebuah variabel dimulai dengan menggunakan tanda dollar ($), lalu diikuti dengan nama variabel</li>
+						<li># Sebuah nama variabel harus dimulai dengan sebuah kata atau karakter garis bawah (_)</li>
+						<li># Sebuah nama variabel tidak dapat dimulai dengan sebuah angka</li>
+						<li># Sebuah nama variabel hanya dapat mengandung karakter huruf-angka dan garis bawah (A-z, 0-9, dan _)</li>
+					</ul>
+				</div>
+				<p class="font-p"><i>*Catatan: Perlu diingat bahwa nama variabel sangatlah sensitive.</i></p>
+				<hr class="hr2">
+				<h2 class="font-h2">PHP Merupakan Bahasa yang Memiliki Kemudahan</h2>
+				<p class="font-p">Dalam contoh di atas, perhatikan bahwa kita tidak harus memberitahukan tipe data pada variabel tersebut.
+				PHP telah dengan otomatis mengkonversi variabel dengan tipe data yang benar, tergantung pada nilai yang benar. Sedangkan
+				dalam bahasa pemrograman lain seperti C, C++, Python, dan Java. Seorang programmer diharuskan untuk mendeklarasikan
+				nama dan tipe data sebuah variabel sebelum digunakan.</p>
+				<hr class="hr2">
+				<h2 class="font-h2">Cakupan Variabel Dalam PHP</h2>
+				<p class="font-p">Dalam PHP, variabel dapat dideklarasikan pada berbagai tempat dalam script. Cakupan dalam sebuah variabel
+				merupakan bagian script, yang dimana variabel tersebut dapat digunakan sebagai referensi. Variabel memiliki 3 cakupan variabel
+				yang berbeda, antara lain:
+				<div class="div-ul">
+					<ul class="font-p">
+						<li># Lokal</li>
+						<li># Global</li>
+						<li># Statis</li>
+					</ul>
+				</div>
+				<hr class="hr2">
+				<h2 class="font-h2">Cakupan Global dan Lokal</h2>
+				<p class="font-p">Sebuah variabel dideklarasikan <u>diluar</u> sebuah fungsi yang memiliki sebuah cakupan global dan hanya dapat
+				diakses diluar sebuah fungsi.</p>
+				<div class="div-try2">
+					<div class="var-area" rows="8" cols="80" readonly="readonly">
+						<pre class="pre-area">$string = "Hello TuPe"; <i>//cakupan global</i><br>function diCoba(){<br>	echo	$string; <br>	<i>// menggunakan variabel $string dalam<br>	fungsi akan menimbulkan pesan error</i><br>}<br>diCoba();<br><br>echo $string;
+						</pre>
+					</div>
+					<a href="deklarasi-variabel.php" target="_blank"><button class="link2" type="button" name="button">Dicoba Yuk</button></a>
+				</div>
+				<p class="font-p">Sebuah variabel dideklarasikan <u>bersama</u> sebuah fungsi yang memiliki cakupan lokal dan hanya dapat diakses bersama fungsi itu sendiri.</p>
+				<div class="div-try2">
+					<div class="var-area" rows="8" cols="80" readonly="readonly">
+						<pre class="pre-area">function diCoba(){<br>	$string = "Hello TuPe"; <i>//cakupan lokal</i><br>	echo	$string; <br>}<br><br>diCoba();<br>echo $string;<br><i>// menggunakan variabel $string dalam<br>fungsi akan menimbulkan pesan error</i>;
+						</pre>
+					</div>
+					<a href="deklarasi-variabel.php" target="_blank"><button class="link2" type="button" name="button">Dicoba Yuk</button></a>
+				</div>
+				<hr class="hr2">
+				<h2 class="font-h2">Kata Kunci Global dan Statis</h2>
+				<p class="font-p">Kata kunci <u>global</u> digunakan untuk mengakses sebuah variabel global bersama dalam sebuah fungsi. Untuk melakukannya, gunakan kata kunci global sebelum variabel
+				(dalam fungsi).</p>
+				<div class="div-try2">
+					<div class="var-area" rows="8" cols="80" readonly="readonly">
+						<pre class="pre-area">x = 5;<br>y = 5;<br>function diCoba(){<br>	global $x, $y; <br>	$y = $x + $y; <br>}<br><br>diCoba();<br>echo $y; <i>// hasil = 10</i>;
+						</pre>
+					</div>
+					<a href="deklarasi-variabel.php" target="_blank"><button class="link2" type="button" name="button">Dicoba Yuk</button></a>
+				</div>
+				<p class="font-p">Normalnya, ketika sebuah fungsi telah selesai dieksekusi, semua variabel akan dihapus. Bagaimanapun, di waktu yang sama kita ingin sebuah lokal variabel
+				tidak ingin dihapus. Kita butuh ini untuk pada kasus yang lain. Untuk melakukannya, kita gunakan kata kunci <u>static</u> ketika kita pertama kali mendeklarasikan sebuah variabel.</p>
+				<div class="div-try2">
+					<div class="var-area" rows="8" cols="80" readonly="readonly">
+						<pre class="pre-area">function diCoba(){<br>	static $x = 5; <br>	echo $x; <br> $x++; <br>}<br><br>diCoba();<br>diCoba();<br>diCoba();
+						</pre>
+					</div>
+					<a href="deklarasi-variabel.php" target="_blank"><button class="link2" type="button" name="button">Dicoba Yuk</button></a>
+				</div>
+				<p class="font-p">Kemudian, setiap kali fungsi dipanggil, variabel masih memiliki informasi yang terkandung dari terakhir kali fungsi dipanggil.</p>
+				<p class="font-p"><i>*Catatan: Variabel ini masih bersifat lokal dalam fungsi.</i></p>
+				<a href="../menu.html"><button class="back" type="button" name="button">Horee, Saya Mengerti ^_^</button></a>
 			</div>
 		</div>
 
@@ -150,15 +226,18 @@
 			<div class="container-footer">
 
 				<div id="row-1f">
-					<div class="text-row-1f"><span style="font-weight:600;font-size:15px;color:#666;line-height:250%;text-transform:uppercase;letter-spacing:1.5px;">What is Platz</span><br>Platz is a blog showcasing hand-picked free themes, design stuff, free fonts and other resources for web designers.</div>
+					<div class="text-row-1f" style="text-align:justify;"><span style="font-weight:600;font-size:15px;color:#666;line-height:250%;text-transform:uppercase;letter-spacing:1.5px;">Apa itu TuPe?</span><br>TuPe memiliki fokus pada kesederhanaan dalam menyampaikan materi-materi. TuPe menggunakan penjelasan kode sederhana dan memberi gambaran
+					bagaimana menggunakannya. Tutorial mulai dari tingkat dasar hingga tingkat profesional.</div>
 				</div>
 
 				<div id="row-2f">
-					<div class="text-row-2f"><span style="font-weight:600;font-size:15px;color:#666;line-height:250%;text-transform:uppercase;letter-spacing:1.5px;">How does it work</span><br>Platz offers you all the latest freebies found all over the fourth corners without to pay.</div>
+					<div class="text-row-2f" style="text-align:justify;"><span style="font-weight:600;font-size:15px;color:#666;line-height:250%;text-transform:uppercase;letter-spacing:1.5px;">Mudah Dipelajari</span><br>TuPe memiliki fokus pada kesederhanaan dalam menyampaikan materi-materi. TuPe menggunakan penjelasan kode sederhana dan menggambarkan</div>
 				</div>
 
 				<div id="row-3f">
-					<div class="text-row-3f"><span style="font-weight:600;font-size:15px;color:#666;line-height:250%;text-transform:uppercase;letter-spacing:1.5px;">Get in touch!</span><br>Subscribe our RSS or follow us on Facebook, Google+, Pinterest or Dribbble to keep updated.</div>
+					<div class="text-row-3f "style="text-align:justify;"><span style="font-weight:600;font-size:15px;color:#666;line-height:250%;text-transform:uppercase;letter-spacing:1.5px;">Lebih Banyak Fitur</span><br>TuPe menyediakan berbagai macam fitur seperti fitur belajar, quiz, dan berbagai fitur - fitur lain yang memungkinkan pengguna agar lebih mudah berinteraksi dan nyaman
+						untuk belajar pada aplikasi ini. Fitur-fitur tersebut memiliki banyak kegunaan, salah satu contohnya fitur quiz yang mana nantinya fitur tersebut
+						akan menyediakan daftar soal yang harus kita selesaikan.</div>
 				</div>
 
 				<div id="row-4f">
@@ -177,13 +256,13 @@
 
 		<div id="wrapper-copyright">
 			<div class="copyright">
-				<div class="copy-text object">Copyright © 2016. Template by <a style="color:#D0D1D4;" href="https://dcrazed.com/">Dcrazed</a></div>
+				<div class="copy-text object">Copyright © 2016. Template by <a style="color:#D0D1D4;" href="https://dcrazed.com/">Dcrazed</a> || Modified by <a style="color:#D0D1D4;" href="https://github.com/LendisFabri">Lendis Fabri</a></div>
 
 				<div class="wrapper-navbouton">
-					<div class="google object">g</div>
-					<div class="facebook object">f</div>
-					<div class="linkin object">i</div>
-					<div class="dribbble object">d</div>
+					<div class="google object">e</div>
+					<div class="facebook object">P</div>
+					<div class="linkin object">u</div>
+					<div class="dribbble object">T</div>
 				</div>
 			</div>
 		</div>
