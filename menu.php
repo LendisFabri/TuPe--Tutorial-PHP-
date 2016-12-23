@@ -436,24 +436,28 @@
 			<div class="container-footer">
 
 				<div id="row-1f">
-					<div class="text-row-1f"><span style="font-weight:600;font-size:15px;color:#666;line-height:250%;text-transform:uppercase;letter-spacing:1.5px;">What is Platz</span><br>Platz is a blog showcasing hand-picked free themes, design stuff, free fonts and other resources for web designers.</div>
+					<div class="text-row-1f" style="text-align:justify;"><span style="font-weight:600;font-size:15px;color:#666;line-height:250%;text-transform:uppercase;letter-spacing:1.5px;">Apa itu TuPe?</span><br>TuPe memiliki fokus pada kesederhanaan dalam menyampaikan materi-materi. TuPe menggunakan penjelasan kode sederhana dan memberi gambaran
+					bagaimana menggunakannya. Tutorial mulai dari tingkat dasar hingga tingkat profesional.</div>
 				</div>
 
 				<div id="row-2f">
-					<div class="text-row-2f"><span style="font-weight:600;font-size:15px;color:#666;line-height:250%;text-transform:uppercase;letter-spacing:1.5px;">How does it work</span><br>Platz offers you all the latest freebies found all over the fourth corners without to pay.</div>
+					<div class="text-row-2f" style="text-align:justify;"><span style="font-weight:600;font-size:15px;color:#666;line-height:250%;text-transform:uppercase;letter-spacing:1.5px;">Mudah Dipelajari</span><br>TuPe memiliki fokus pada kesederhanaan dalam menyampaikan materi-materi. TuPe menggunakan penjelasan kode sederhana dan menggambarkan</div>
 				</div>
 
 				<div id="row-3f">
-					<div class="text-row-3f"><span style="font-weight:600;font-size:15px;color:#666;line-height:250%;text-transform:uppercase;letter-spacing:1.5px;">Get in touch!</span><br>Subscribe our RSS or follow us on Facebook, Google+, Pinterest or Dribbble to keep updated.</div>
+					<div class="text-row-3f "style="text-align:justify;"><span style="font-weight:600;font-size:15px;color:#666;line-height:250%;text-transform:uppercase;letter-spacing:1.5px;">Lebih Banyak Fitur</span><br>TuPe menyediakan berbagai macam fitur seperti fitur belajar, quiz, dan berbagai fitur - fitur lain yang memungkinkan pengguna agar lebih mudah berinteraksi dan nyaman
+						untuk belajar pada aplikasi ini. Fitur-fitur tersebut memiliki banyak kegunaan, salah satu contohnya fitur quiz yang mana nantinya fitur tersebut
+						akan menyediakan daftar soal yang harus kita selesaikan.</div>
 				</div>
 
 				<div id="row-4f">
-					<div class="text-row-4f"><span style="font-weight:600;font-size:15px;color:#666;line-height:250%;text-transform:uppercase;letter-spacing:1.5px;">Newsletter</span><br>You will be informed monthly about the latest content avalaible.</div>
+					<div class="text-row-4f" style="text-align:juestify;"><span style="font-weight:600;font-size:15px;color:#666;line-height:250%;text-transform:uppercase;letter-spacing:1.5px;">Koran TuPe</span><br>Dapatkan informasi terbaru kami setiap harinya.</div>
 
 					<div id="main_tip_newsletter">
 						<form>
-							<input type="text" name="newsletter" id="tip_newsletter_input" list="newsletter" autocomplete=off required>
+							<input type="text" name="newsletter" id="tip_newsletter_input" list="newsletter" autocomplete=off placeholder="Masukkan alamat email..." required>
 						</form>
+					</div>
 					</div>
 				</div>
 

@@ -241,11 +241,11 @@
 				</div>
 
 				<div id="row-4f">
-					<div class="text-row-4f"><span style="font-weight:600;font-size:15px;color:#666;line-height:250%;text-transform:uppercase;letter-spacing:1.5px;">Newsletter</span><br>You will be informed monthly about the latest content avalaible.</div>
+					<div class="text-row-4f" style="text-align:juestify;"><span style="font-weight:600;font-size:15px;color:#666;line-height:250%;text-transform:uppercase;letter-spacing:1.5px;">Koran TuPe</span><br>Dapatkan informasi terbaru kami setiap harinya.</div>
 
 					<div id="main_tip_newsletter">
 						<form>
-							<input type="text" name="newsletter" id="tip_newsletter_input" list="newsletter" autocomplete=off required>
+							<input type="text" name="newsletter" id="tip_newsletter_input" list="newsletter" autocomplete=off placeholder="Masukkan alamat email..." required>
 						</form>
 					</div>
 				</div>
