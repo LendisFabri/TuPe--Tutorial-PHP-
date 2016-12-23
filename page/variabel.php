@@ -127,7 +127,7 @@
 					<div class="var-area" rows="8" cols="80" readonly="readonly">
 						<pre class="pre-area">$string = "Hello TuPe";<br>$angka = 5;<br>$desimal = 27.5;</pre>
 					</div>
-					<a href="deklarasi-variabel.php" target="_blank"><button class="link" type="button" name="button">Dicoba Yuk</button></a>
+					<a href="../ide.php" target="_blank"><button class="link" type="button" name="button">Dicoba Yuk</button></a>
 				</div>
 				<p class="font-p">Setelah pernyataan di atas dieksekusi, kita bisa melihat bahwa variabel <i>$string</i> akan menyimpan nilai <u>Hello TuPe</u>,
 				variabel <i>$angka</i> akan menyimpan nilai <u>5</u>, dan variabel <i>$desimal</i> akan menyimpan nilai <u>27.5.</u></p>
@@ -169,7 +169,7 @@
 						<pre class="pre-area">$string = "Hello TuPe"; <i>//cakupan global</i><br>function diCoba(){<br>	echo	$string; <br>	<i>// menggunakan variabel $string dalam<br>	fungsi akan menimbulkan pesan error</i><br>}<br>diCoba();<br><br>echo $string;
 						</pre>
 					</div>
-					<a href="deklarasi-variabel.php" target="_blank"><button class="link2" type="button" name="button">Dicoba Yuk</button></a>
+					<a href="../ide.php" target="_blank"><button class="link2" type="button" name="button">Dicoba Yuk</button></a>
 				</div>
 				<p class="font-p">Sebuah variabel dideklarasikan <u>bersama</u> sebuah fungsi yang memiliki cakupan lokal dan hanya dapat diakses bersama fungsi itu sendiri.</p>
 				<div class="div-try2">
@@ -177,7 +177,7 @@
 						<pre class="pre-area">function diCoba(){<br>	$string = "Hello TuPe"; <i>//cakupan lokal</i><br>	echo	$string; <br>}<br><br>diCoba();<br>echo $string;<br><i>// menggunakan variabel $string dalam<br>fungsi akan menimbulkan pesan error</i>;
 						</pre>
 					</div>
-					<a href="deklarasi-variabel.php" target="_blank"><button class="link2" type="button" name="button">Dicoba Yuk</button></a>
+					<a href="../ide.php" target="_blank"><button class="link2" type="button" name="button">Dicoba Yuk</button></a>
 				</div>
 				<hr class="hr2">
 				<h2 class="font-h2">Kata Kunci Global dan Statis</h2>
@@ -188,7 +188,7 @@
 						<pre class="pre-area">x = 5;<br>y = 5;<br>function diCoba(){<br>	global $x, $y; <br>	$y = $x + $y; <br>}<br><br>diCoba();<br>echo $y; <i>// hasil = 10</i>;
 						</pre>
 					</div>
-					<a href="deklarasi-variabel.php" target="_blank"><button class="link2" type="button" name="button">Dicoba Yuk</button></a>
+					<a href="../ide.php" target="_blank"><button class="link2" type="button" name="button">Dicoba Yuk</button></a>
 				</div>
 				<p class="font-p">Normalnya, ketika sebuah fungsi telah selesai dieksekusi, semua variabel akan dihapus. Bagaimanapun, di waktu yang sama kita ingin sebuah lokal variabel
 				tidak ingin dihapus. Kita butuh ini untuk pada kasus yang lain. Untuk melakukannya, kita gunakan kata kunci <u>static</u> ketika kita pertama kali mendeklarasikan sebuah variabel.</p>
@@ -197,7 +197,7 @@
 						<pre class="pre-area">function diCoba(){<br>	static $x = 5; <br>	echo $x; <br> $x++; <br>}<br><br>diCoba();<br>diCoba();<br>diCoba();
 						</pre>
 					</div>
-					<a href="deklarasi-variabel.php" target="_blank"><button class="link2" type="button" name="button">Dicoba Yuk</button></a>
+					<a href="../ide.php" target="_blank"><button class="link2" type="button" name="button">Dicoba Yuk</button></a>
 				</div>
 				<p class="font-p">Kemudian, setiap kali fungsi dipanggil, variabel masih memiliki informasi yang terkandung dari terakhir kali fungsi dipanggil.</p>
 				<p class="font-p"><i>*Catatan: Variabel ini masih bersifat lokal dalam fungsi.</i></p>
